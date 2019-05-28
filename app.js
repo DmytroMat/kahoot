@@ -5,10 +5,10 @@ const express = require('express');
 const socketIO = require('socket.io');
 
 //Import classes
-const {LiveGames} = require('./utils/liveGames');
-const {Players} = require('./utils/players');
+const {LiveGames} = require('./server/utils/liveGames');
+const {Players} = require('./server/utils/players');
 
-const publicPath = path.join(__dirname, '../public');
+const publicPath = path.join(__dirname, './public');
 var app = express();
 var server = http.createServer(app);
 var io = socketIO(server);
