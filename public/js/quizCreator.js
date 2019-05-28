@@ -47,6 +47,7 @@ function addQuestion(){
     questionLabel.innerHTML = "Question " + String(questionNum) + ": ";
     questionField.setAttribute('class', 'question');
     questionField.setAttribute('id', 'q' + String(questionNum));
+    questionField.setAttribute('class', "form-control");
     questionField.setAttribute('type', 'text');
     
     answer1Label.innerHTML = "Answer 1: ";
@@ -56,14 +57,19 @@ function addQuestion(){
     correctLabel.innerHTML = "Correct Answer (1-4): ";
     
     answer1Field.setAttribute('id', String(questionNum) + "a1");
+    answer1Field.setAttribute('class', "form-control");
     answer1Field.setAttribute('type', 'text');
     answer2Field.setAttribute('id', String(questionNum) + "a2");
+    answer2Field.setAttribute('class', "form-control");
     answer2Field.setAttribute('type', 'text');
     answer3Field.setAttribute('id', String(questionNum) + "a3");
+    answer3Field.setAttribute('class', "form-control");
     answer3Field.setAttribute('type', 'text');
     answer4Field.setAttribute('id', String(questionNum) + "a4");
+    answer4Field.setAttribute('class', "form-control");
     answer4Field.setAttribute('type', 'text');
     correctField.setAttribute('id', 'correct' + String(questionNum));
+    correctField.setAttribute('class', "correct");
     correctField.setAttribute('type', 'number');
     
     newQuestionDiv.setAttribute('id', 'question-field');//Sets class of div
@@ -71,18 +77,14 @@ function addQuestion(){
     newQuestionDiv.appendChild(questionLabel);
     newQuestionDiv.appendChild(questionField);
     newQuestionDiv.appendChild(document.createElement('br'));
-    newQuestionDiv.appendChild(document.createElement('br'));
     newQuestionDiv.appendChild(answer1Label);
     newQuestionDiv.appendChild(answer1Field);
     newQuestionDiv.appendChild(answer2Label);
     newQuestionDiv.appendChild(answer2Field);
-    newQuestionDiv.appendChild(document.createElement('br'));
-    newQuestionDiv.appendChild(document.createElement('br'));
     newQuestionDiv.appendChild(answer3Label);
     newQuestionDiv.appendChild(answer3Field);
     newQuestionDiv.appendChild(answer4Label);
     newQuestionDiv.appendChild(answer4Field);
-    newQuestionDiv.appendChild(document.createElement('br'));
     newQuestionDiv.appendChild(document.createElement('br'));
     newQuestionDiv.appendChild(correctLabel);
     newQuestionDiv.appendChild(correctField);

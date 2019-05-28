@@ -39,7 +39,8 @@ body {
     font-family: 'Raleway', sans-serif;
 }
 #link{
-    color: white;
+    text-decoration: underline;
+    padding:0;
 }
 #game-list{
     text-align: center;
@@ -62,5 +63,5 @@ body {
 }
 
 .logo {
-    padding: 50px 0 40px
+    padding: 60px 0 40px
 }

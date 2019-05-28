@@ -21,10 +21,12 @@ button{
 #nameText{
     font-family: 'Raleway', sans-serif;
     padding: 0px 10px;
+    color:white;
 }
 #scoreText{
     font-family: 'Raleway', sans-serif;
     padding: 0px 10px;
+    color:white;
 }
 #message{
     font-family: 'Raleway', sans-serif;
@@ -33,5 +35,5 @@ button{
 }
 
 .logo {
-    padding: 50px 0 40px
+    padding: 60px 0 40px
 }

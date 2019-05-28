@@ -10,52 +10,42 @@
         <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
     </head>
     <body onload = "setBGColor()">
+        <button class="btn btn-secondary" id="cancel" onclick = 'cancelQuiz()'>Cancel</button>
         <div class="logo text-center">
             <img src="../../img/logo.png">
         </div>
-        <h1 id = "title">QuizDIT Quiz Creator Studio</h1>
-        
-        <div class="form-field">
-            <label id = "quizTitle">Quiz Title</label>
-            <input id = "name" type = "text" name="name" autofocus/>
-        </div>
-        <br>
-        <br>
-        <div id = "allQuestions">
-            <div id="question-field">
-                <label>Question 1: </label>
-                <input class = "question" id = "q1" type = "text" autofocus/>
-                <br>
-                <br>
-                <label>Answer 1: </label>
-                <input id = "1a1" type = "text" autofocus/>
-                <label>Answer 2: </label>
-                <input id = "1a2" type = "text" autofocus/>
-                <br>
-                <br>
-                <label>Answer 3: </label>
-                <input id = "1a3"  type = "text"autofocus/>
-                <label>Answer 4: </label>
-                <input id = "1a4"  type = "text" autofocus/>
-                <br>
-                <br>
-                <label>Correct Answer (1-4) :</label>
-                <input class = "correct" id = "correct1"  type = "number" autofocus/>
+        <h1 id = "title">QuizDIT Quiz Creator</h1>
+        <div class="container">
+            <div class="form-group">
+                <label id = "quizTitle">Quiz Title</label>
+                <input id = "name" class="form-control" type = "text" name="name" autofocus/>
+            </div>
+            <div id = "allQuestions">
+                <div id="question-field" class="form-group">
+                    <label>Question 1: </label>
+                    <input class = "question form-control" id = "q1" type = "text" autofocus/>
+                    <br>
+                    <label>Answer 1: </label>
+                    <input id = "1a1" class="form-control" type = "text" autofocus/>
+                    <label>Answer 2: </label>
+                    <input id = "1a2" class="form-control" type = "text" autofocus/>
+                    <label>Answer 3: </label>
+                    <input id = "1a3" class="form-control" type = "text"autofocus/>
+                    <label>Answer 4: </label>
+                    <input id = "1a4" class="form-control" type = "text" autofocus/>
+                    <br>
+                    <label>Correct Answer (1-4) :</label>
+                    <input class = "correct" id = "correct1"  type = "number" autofocus/>
+                </div>
             </div>
         </div>
-        <br>
-        <button onclick = "addQuestion()">Add another question</button>
         
-        <br>
-        <br>
-        
-        <div class="form-field">
-            <button onclick = "updateDatabase()">Create Quiz</button>
-        </div>
+        <button class="operationBtn" onclick = "addQuestion()">Add another question</button>
+        <button class="operationBtn" onclick = "updateDatabase()">Create Quiz</button>
         
         <br>
         
-        <button onclick = 'cancelQuiz()'>Cancel quiz and return to quiz selection</button>
+        
         
         <script src = "../../socket.io/socket.io.js"></script>
         <script src = "../../js/quizCreator.js"></script>
