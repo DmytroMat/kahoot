@@ -46,6 +46,12 @@ body {
     text-align: center;
     padding-top:20px;
 }
+
+#game-list button {
+    width: 80%;
+    max-width:768px;
+}
+
 #back{
     color: white;
     text-align: center;
