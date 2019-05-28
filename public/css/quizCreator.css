@@ -3,6 +3,8 @@
     border-width: 1px;
     padding: 10px 20px;
     font-family: 'Raleway', sans-serif;
+    border: 1px solid #bbb;
+    border-radius: 4px;
 }
 .question{
     font-family: 'Raleway', sans-serif;
@@ -15,7 +17,7 @@
 #title{
     text-align: center;
     font-family: 'Raleway', sans-serif;
-    color:white;
+    /* color:white; */
     font-size:30px;
 }
 #quizTitle{
