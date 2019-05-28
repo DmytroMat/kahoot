@@ -62,6 +62,8 @@
 
 #nextQButton{
     display: none;
+    background: #3d3d3d;
+    margin: 0 auto 50px;
 }
 #question{
     font-family: 'Raleway', sans-serif;
@@ -114,4 +116,8 @@
     font-size: 35px;
     color: #3399ff;
     display: none;
+}
+
+body {
+    background-color: #FCfCFC
 }

@@ -24,16 +24,17 @@
 }
 
 body {
-    -webkit-animation: bgcolor 20s infinite;
+    background-color: #FCfCFC
+    /* -webkit-animation: bgcolor 20s infinite;
     animation: bgcolor 10s infinite;
     -webkit-animation-direction: alternate;
-    animation-direction: alternate;
+    animation-direction: alternate; */
 }
 #title{
     font-family: 'Raleway', sans-serif;
     text-align: center;
     font-size: 50px;
-    color: white;
+    /* color: white; */
 }
 #name{
     width: 70%;
@@ -66,10 +67,11 @@ body {
     text-align: center;
     font-size: 25px;
     font-family: 'Raleway', sans-serif;
-    color: white;
+    /* color: white; */
 }
 #host{
-    color: white;
+    /* color: white; */
+    color: #212529;
     text-decoration: none;
 }
 #host:hover{

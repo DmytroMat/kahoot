@@ -21,19 +21,20 @@
 }
 
 body {
-    -webkit-animation: bgcolor 20s infinite;
+    background-color: #FCfCFC
+    /* -webkit-animation: bgcolor 20s infinite;
     animation: bgcolor 10s infinite;
     -webkit-animation-direction: alternate;
-    animation-direction: alternate;
+    animation-direction: alternate; */
 }
 #title{
-    color: white;
+    /* color: white; */
     text-align: center;
     font-size: 35px;
     font-family: 'Raleway', sans-serif;
 }
 #subtitle{
-    color: white;
+    /* color: white; */
     text-align: center;
     font-size: 16px;
     font-family: 'Raleway', sans-serif;
@@ -53,7 +54,7 @@ body {
 }
 
 #back{
-    color: white;
+    /* color: white; */
     text-align: center;
     position:absolute;
     top:10px;

@@ -21,20 +21,21 @@
 }
 
 body {
-    -webkit-animation: bgcolor 20s infinite;
+    background-color: #FCfCFC
+    /* -webkit-animation: bgcolor 20s infinite;
     animation: bgcolor 10s infinite;
     -webkit-animation-direction: alternate;
-    animation-direction: alternate;
+    animation-direction: alternate; */
 }
 #title{
-    color:white;
+    /* color:white; */
     font-family: 'Raleway', sans-serif;
     font-size: 30px;
     text-align: center;
 }
 #gamePinText{
     text-align: center;
-    color: white;
+    /* color: white; */
     font-family: 'Tajawal', sans-serif;
     font-size: 50px;
 }
@@ -45,6 +46,8 @@ body {
     text-align: center;
     font-size: 20px;
     resize: none;
+    background: grey;
+    color:white;
 }
 
 #start{
