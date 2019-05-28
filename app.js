@@ -272,9 +272,7 @@ io.on('connection', (socket) => {
         var player = players.getPlayer(playerid);
         player.gameData.score += time;
     });
-    
-    
-    
+     
     socket.on('timeUp', function(){
         var game = games.getGame(socket.id);
         game.gameData.questionLive = false;
@@ -433,6 +431,22 @@ io.on('connection', (socket) => {
         var game = games.getGame(socket.id);//Get the game based on socket.id
         game.gameLive = true;
         socket.emit('gameStarted', game.hostId);//Tell player and host that game has started
+    });
+
+    //When the host removes the game
+    socket.on('deleteGame', () => {
+        var game = games.getGame(socket.id);
+        MongoClient.connect(url, function(err, db){
+            if (err) throw err;
+    
+            var dbo = db.db('kahootDB');
+            dbo.collection("kahootGames").deleteOne({id: parseInt(game.gameData.gameid)}, function(err, res){
+                if (err) throw err;
+                socket.emit('disconnect', socket.id);
+                console.log('Game removed with gameId:', game.gameData.gameid);
+                db.close();
+            });
+        });
     });
     
     //Give user game names data

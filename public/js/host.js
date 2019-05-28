@@ -33,6 +33,13 @@ function endGame(){
     window.location.href = "/";
 }
 
+function deleteGame(){
+    if (confirm("Are you sure you want to delete? All questions will be DELETED!")) {
+        socket.emit('deleteGame');
+        window.location.href = "/";
+    }
+}
+
 //When server starts the game
 socket.on('gameStarted', function(id){
     console.log('Game Started!');
