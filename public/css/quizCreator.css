@@ -28,6 +28,10 @@
     padding: 60px 0 40px
 }
 
+.container {
+    max-width:400px!important;
+}
+
 #cancel {
     color: white;
     text-align: center;

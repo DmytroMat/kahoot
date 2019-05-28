@@ -38,6 +38,7 @@ body {
 }
 #name{
     width: 70%;
+    max-width:400px;
     padding: 12px 0px;
     margin: 8px 0;
     display: block;
@@ -51,6 +52,7 @@ body {
 }
 #pin{
     width: 70%;
+    max-width:400px;
     padding: 12px 0px;
     margin: 8px 0;
     display: block;
@@ -79,6 +81,7 @@ body {
 }
 #joinButton{
     width: 70%;
+    max-width:400px;
     background-color: #4CAF50;
     color: white;
     padding: 14px 20px;
