@@ -29,7 +29,7 @@ body {
 #title{
     color:white;
     font-family: 'Raleway', sans-serif;
-    font-size: 35px;
+    font-size: 30px;
     text-align: center;
 }
 #gamePinText{
@@ -63,4 +63,20 @@ body {
     margin-right: auto;
     font-size: 25px;
     font-family: 'Raleway', sans-serif;
+}
+
+#cancel {
+    position:absolute;
+    left:10px;
+    top:10px;
+}
+
+#delete {
+    position:absolute;
+    right:10px;
+    top:10px;
+}
+
+.logo {
+    padding: 50px 0 40px
 }

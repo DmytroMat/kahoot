@@ -2,15 +2,23 @@
 <html>
     <head>
         <title>Host | QuizDIT</title>
+        <meta charset="utf-8">
+        <link rel="icon" href="../img/fav.ico" type="image/x-icon">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
         <link rel = "stylesheet" href = "../css/host.css">
         <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Tajawal" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
-        <button id = "cancel" onclick = "endGame()">Cancel Game</button>
+        <button id = "cancel" class="btn btn-secondary" onclick = "endGame()">Cancel Game</button>
+        <button id = "delete" class="btn btn-danger" onclick = "deleteGame()">Delete Game</button>
+        <div class="logo text-center">
+            <img src="../img/logo.png">
+        </div>
         <h2 id = "title">Join this Game using the Game Pin: </h2>
         <h1 id = "gamePinText"></h1>
-        <textarea style = "width: 700px; height: 500px;" readonly id = 'players'></textarea>
+        <textarea style = "width: 700px; height: 200px;" readonly id = 'players'></textarea>
         <br>
         <button id = 'start' onclick = "startGame()">Start Game</button>
         <br>

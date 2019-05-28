@@ -43,6 +43,10 @@
     font-size: 20px;
 }
 
+.logo {
+    padding: 50px 0 40px
+}
+
 #square1{
     background-color: #4CAF50;
 }

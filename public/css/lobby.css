@@ -7,6 +7,10 @@
     font-size: 15px;
 }
 
+.logo {
+    padding: 50px 0 40px
+}
+
 @keyframes bgcolor {
     0% {
         background-color: #45a3e5

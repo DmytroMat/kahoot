@@ -19,6 +19,9 @@
         background-color: #864cbf
     }
 }
+.logo {
+    padding: 50px 0 40px
+}
 
 body {
     -webkit-animation: bgcolor 20s infinite;
