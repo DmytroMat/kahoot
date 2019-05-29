@@ -82,7 +82,7 @@ body {
 #joinButton{
     width: 70%;
     max-width:400px;
-    background-color: #4CAF50;
+    /* background-color: #4CAF50; */
     color: white;
     padding: 14px 20px;
     margin: 8px 0;
@@ -93,6 +93,6 @@ body {
     margin-right: auto;
     margin-left: auto;
     font-size: 20px;
-    background-color: #3A3B3A;
+    background-color: #3B3B3B;
     font-family: 'Raleway', sans-serif;
 }

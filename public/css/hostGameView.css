@@ -1,5 +1,5 @@
 #answer1{
-    background-color: #4CAF50;
+    background-color: #ffd614;
     margin: auto;
     padding: 30px 20px;
     height: 50%;
@@ -7,7 +7,7 @@
     font-size: 20px;
 }
 #answer2{
-    background-color: #f94a1e;
+    background-color: #141821;
     margin: auto;
     padding: 30px 20px;
     height: 50%;
@@ -15,7 +15,7 @@
     font-size: 20px;
 }
 #answer3{
-    background-color: #3399ff;
+    background-color: #a547ae;
     margin: auto;
     padding: 30px 20px;
     height: 50%;
@@ -23,7 +23,7 @@
     font-size: 20px;
 }
 #answer4{
-    background-color: #ff9933;
+    background-color: #757575;
     margin: auto;
     padding: 30px 20px;
     height: 50%;
@@ -48,16 +48,16 @@
 }
 
 #square1{
-    background-color: #4CAF50;
+    background-color: #ffd614;
 }
 #square2{
-    background-color: #f94a1e;
+    background-color: #141821;
 }
 #square3{
-    background-color: #3399ff;
+    background-color: #a547ae;
 }
 #square4{
-    background-color: #ff9933;
+    background-color: #757575;
 }
 
 #nextQButton{

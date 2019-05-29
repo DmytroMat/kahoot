@@ -3,6 +3,18 @@ button{
     width: 50%; height: 50%; float: left;
 }
 #answer1{
+    background-color: #ffd614;
+}
+#answer2{
+    background-color: #141821;
+}
+#answer3{
+    background-color: #a547ae;
+}
+#answer4{
+    background-color: #757575;
+}
+/* #answer1{
     background-color: #4CAF50;
 }
 #answer2{
@@ -13,8 +25,7 @@ button{
 }
 #answer4{
     background-color: #ff9933;
-}
-
+} */
 #buttons{
     text-align: center;
 }

@@ -51,7 +51,7 @@ body {
 }
 
 #start{
-    background-color: #3A3B3A;
+    background-color: #3B3B3B;
     border: none;
     color: white;
     padding: 15px 100px;
@@ -72,12 +72,14 @@ body {
     position:absolute;
     left:10px;
     top:10px;
+    background: #808080;
 }
 
 #delete {
     position:absolute;
     right:10px;
     top:10px;
+    background: #dc3545
 }
 
 .logo {

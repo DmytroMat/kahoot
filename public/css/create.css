@@ -51,6 +51,7 @@ body {
 #game-list button {
     width: 80%;
     max-width:400px;
+    background: #3b3b3b;
 }
 
 #back{
@@ -59,6 +60,7 @@ body {
     position:absolute;
     top:10px;
     left:10px;
+    background:#808080;
 }
 #gameButton{
     font-size:30px;
